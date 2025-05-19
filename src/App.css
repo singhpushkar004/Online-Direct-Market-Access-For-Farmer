@@ -1,0 +1,217 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css';
+
+/* Animated linear gradient background */
+.animated-navbar {
+  background: linear-gradient(-45deg, #28a745, #20c997, #17a2b8, #28a745);
+  background-size: 600% 600%;
+  animation: gradientFlow 10s ease infinite;
+  transition: background 0.5s ease-in-out;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Gradient animation */
+@keyframes gradientFlow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Navbar link styling */
+.nav-link {
+  color: white !important;
+  font-weight: 500;
+  margin-left: 1rem;
+  padding: 10px 20px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 5px; /* Optional: gives a nice rounded effect */
+}
+
+.nav-link:hover {
+  color: #fff !important; /* Ensure color stays white */
+  background-color: rgba(255, 255, 255, 0.2); /* Light background on hover */
+  transform: scale(1.1); /* Slight zoom effect */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Optional: subtle shadow effect */
+}
+
+/* Brand title animation */
+.navbar-brand {
+  animation: fadeInDown 1.5s;
+}
+
+/* SLider css */
+/* Styling for the carousel images */
+.carousel-item img {
+  object-fit: cover;
+  height: 600px;
+}
+
+/* Caption Styling */
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.carousel-caption h5 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.carousel-caption p {
+  font-size: 1.2rem;
+}
+
+/* Styling for navigation buttons */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* introduction secton start */
+
+.intro-section {
+  background: linear-gradient(to right, #e0f7ec, #f0fdfc);
+  color: #333;
+}
+
+.section-title {
+  font-size: 2.2rem;
+  color: #28a745;
+  font-weight: 700;
+}
+
+.lead {
+  font-size: 1.15rem;
+  color: #444;
+}
+
+.intro-points {
+  list-style: none;
+  padding: 0;
+}
+
+.intro-points li {
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 8px 12px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+/* objective section */
+
+.objectives-section {
+  background: linear-gradient(135deg, #f5fdfb, #e2f6f1);
+  color: #222;
+}
+
+.section-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #17a2b8;
+}
+
+h4 {
+  font-size: 1.3rem;
+  color: #20c997;
+  margin-bottom: 1rem;
+}
+
+.objectives-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.objectives-list li {
+  background-color: #ffffff;
+  border-left: 4px solid #28a745;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.05);
+  font-size: 1rem;
+  transition: transform 0.3s;
+}
+
+.objectives-list li:hover {
+  transform: translateX(5px);
+  background-color: #f8f9fa;
+}
+
+/* ProposedSystemSection.js css */
+.proposed-system-section {
+  background: linear-gradient(120deg, #f0fcf6, #e6fffc);
+  color: #333;
+}
+
+.section-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #198754;
+}
+
+h4 {
+  font-size: 1.3rem;
+  color: #0d6efd;
+  margin-bottom: 1rem;
+}
+
+.system-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.system-list li {
+  background-color: #fff;
+  border-left: 5px solid #20c997;
+  padding: 12px 15px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  font-size: 1rem;
+  transition: transform 0.3s;
+}
+
+.system-list li:hover {
+  transform: scale(1.02);
+  background-color: #f8f9fa;
+}
+
+/* Requirement section */
+
+.project-requirements-section {
+  background: linear-gradient(to right, #f0fff4, #e6f9ff);
+  color: #212529;
+}
+
+.section-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #198754;
+}
+
+h4 {
+  font-size: 1.4rem;
+  color: #0d6efd;
+  margin-bottom: 1rem;
+}
+
+.custom-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.custom-list li {
+  background-color: #ffffff;
+  padding: 12px 15px;
+  margin-bottom: 12px;
+  border-left: 5px solid #198754;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.custom-list li:hover {
+  transform: scale(1.02);
+  background-color: #f8f9fa;
+}
