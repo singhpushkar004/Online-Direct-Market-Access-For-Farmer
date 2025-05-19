@@ -30,14 +30,14 @@ const Footer = () => {
             <h5 className="footer-title">Contact Us</h5>
             <ul className="footer-contact">
               <li><i className="fas fa-map-marker-alt"></i> Post-Graduate College, Ghazipur</li>
-              <li><i className="fas fa-phone-alt"></i> +91 123 456 7890</li>
-              <li><i className="fas fa-envelope"></i> contact@odma.com</li>
+              <li><i className="fas fa-phone-alt"></i> +91 7830198385</li>
+              <li><i className="fas fa-envelope"></i> singhpushkar@gmail.com</li>
             </ul>
           </div>
         </div>
 
         <div className="text-center mt-4">
-          <p className="footer-copy">© 2025 Online Direct Market Access for Farmers. All Rights Reserved.</p>
+          <p className="footer-copy">© 2025 Online Direct Market Access for Farmers. All Rights Reserved. Designed and Developed by Pushkar Singh</p>
         </div>
       </div>
     </footer>
